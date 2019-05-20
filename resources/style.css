@@ -1,17 +1,35 @@
-body {
-  text-align: center;
-  font-family: Helvetica;
-}
-
-
 
 .header--main {
-  font-size: 20px;
-  font-weight: bold;
   background-image: url('the-flatiron-building.png');
+  font-family: Helvetica, sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
   color: white;
   }
 
-.navigation {
+.header--main, .navigation {
   font-size: 18px;
   color: white;
+
+.process {
+  color: black
+  background-color: white;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.icons {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.newyork {
+  background-image: url('the-flatiron-building.png');
+  font-family: Helvetica;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
