@@ -1,6 +1,7 @@
 
 .header--main {
   background-image: url('the-flatiron-building.png');
+  background-position: left;
   font-family: Helvetica, sans-serif;
   font-size: 70px;
   font-weight: bold;
@@ -11,18 +12,29 @@
 .header--main, .navigation {
   font-size: 18px;
   color: white;
+  font-weight: normal;
+}
 
-.process {
-  color: black
-  background-color: white;
+.ourprocess {
+  font-family: Helvetica, sans-serif;
   font-size: 32px;
   font-weight: bold;
+  text-align: center;
+  color: black
 }
 
 .icons {
   font-family: Helvetica;
   font-size: 23px;
   font-weight: bold;
+  text-align: center;
+  color: black
+}
+
+.icontext {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .newyork {
@@ -31,5 +43,30 @@
   text-align: center;
   font-size: 23px;
   font-weight: bold;
+  color: white;
+}
+
+.extra {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+  color: black
+}
+
+.extratext {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.copyright {
+  font-family: Helvetica;
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+}
+
+.navigation1 {
   color: white;
 }
